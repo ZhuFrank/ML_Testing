@@ -28,6 +28,8 @@ print(df)
 # EDR = df.reindex(columns = ['EDR'])
 # PRR = df.reindex(columns = ['PRR'])
 
+
+
 exam_X = df.loc[:,"EDR"]
 exam_y = df.loc[:,"PRR"]
 
